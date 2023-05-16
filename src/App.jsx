@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Introduction from './pages/Introduction';
-import ExerciseTwo from './pages/ExerciseTwo';
+import Username from './pages/Username';
+import Counter from './pages/Counter';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/introduction' element={<Introduction />} />
-        <Route path='/username' element={<ExerciseTwo />} />
+        <Route path='/username' element={<Username />} />
+        <Route path='/counter' element={<Counter />} />
       </Routes>
     </div>
   );

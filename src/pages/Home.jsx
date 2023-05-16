@@ -21,6 +21,11 @@ const Home = () => {
             Alterando username
           </Link>
         </li>
+        <li className='font-bold list-disc hover:text-blue-500 transition-all duration-200'>
+          <Link to='/counter' className='hover:border-b-[1px] border-blue-500'>
+            Contador Redux
+          </Link>
+        </li>
       </ul>
     </div>
   );

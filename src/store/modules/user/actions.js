@@ -1,4 +1,4 @@
-import { CHANGE_USER } from './actionType';
+import { CHANGE_USER } from './actionTypes';
 
 export const changeUser = (user) => ({
   type: CHANGE_USER,

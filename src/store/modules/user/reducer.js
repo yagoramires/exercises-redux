@@ -1,4 +1,4 @@
-import { CHANGE_USER } from './actionType';
+import { CHANGE_USER } from './actionTypes';
 
 const userReducer = (state = 'Yago', action) => {
   switch (action.type) {
