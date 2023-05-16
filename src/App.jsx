@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Introduction from './pages/Introduction';
 import Username from './pages/Username';
 import Counter from './pages/Counter';
+import Chat from './pages/Chat';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/introduction' element={<Introduction />} />
         <Route path='/username' element={<Username />} />
         <Route path='/counter' element={<Counter />} />
+        <Route path='/chat' element={<Chat />} />
       </Routes>
     </div>
   );

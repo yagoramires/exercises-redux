@@ -9,7 +9,7 @@ const Header = ({ text }) => {
   };
 
   return (
-    <div className='w-full bg-zinc-800 py-5 '>
+    <div className='w-full bg-zinc-800 py-5 shadow-md'>
       <div className='alignCenterPage flex items-center'>
         <IoIosArrowBack
           size={20}

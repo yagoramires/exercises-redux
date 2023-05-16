@@ -26,6 +26,11 @@ const Home = () => {
             Contador Redux
           </Link>
         </li>
+        <li className='font-bold list-disc hover:text-blue-500 transition-all duration-200'>
+          <Link to='/chat' className='hover:border-b-[1px] border-blue-500'>
+            Chat com Redux Thunk
+          </Link>
+        </li>
       </ul>
     </div>
   );
